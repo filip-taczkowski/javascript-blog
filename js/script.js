@@ -31,7 +31,8 @@
       const clickedArticle = document.querySelector(hrefClickedLink);
       console.log('clickedArticle: ', clickedArticle);
 
-      /* add class 'active' to the correct article */
+      /* [DONE] add class 'active' to the correct article */
+      clickedArticle.classList.add('active');
     }
       
       const links = document.querySelectorAll('.titles a');
