@@ -23,12 +23,14 @@
           activeArticle.classList.remove('active');
       }
     
-      /* [IN PROGRESS] get 'href' attribute from the clicked link */
+      /* [DONE] get 'href' attribute from the clicked link */
       const hrefClickedLink = clickedElement.getAttribute('href');
       console.log('hrefClickedLink: ', hrefClickedLink);
     
-      /* find the correct article using the selector (value of 'href' attribute) */
-    
+      /* [DONE] find the correct article using the selector (value of 'href' attribute) */
+      const clickedArticle = document.querySelector(hrefClickedLink);
+      console.log('clickedArticle: ', clickedArticle);
+
       /* add class 'active' to the correct article */
     }
       
