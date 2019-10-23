@@ -66,7 +66,7 @@ body {
   font-size: 104px;
   line-height: 1;
   text-align: center;
-  color: #d63031;
+  color: #c0392b;
 }
 
 /* Lists */
@@ -91,7 +91,7 @@ body {
 }
 
 .list li:hover a {
-  color: #d63031;
+  color: #c0392b;
 }
 
 .list-horizontal li {
@@ -131,7 +131,58 @@ body {
 }
 
 .post-title {
-  color: #d63031;
+  color: #c0392b;
   font-family: "Oswald", sans-serif;
+}
+
+/* tag sizes */
+.sidebar-right .tags.list li {
+  display: inline-block;
+  color: orange;
+}
+
+.tag-size-1 {
+  font-size: 0.9em;
+  color: #d35400;
+}
+
+.tag-size-1:visited {
+  color: #f1c40f;
+}
+
+.tag-size-2 {
+  font-size: 1.1em;
+  color: #d35400;
+}
+
+.tag-size-2:visited {
+  color: #f1c40f;
+}
+
+.tag-size-3 {
+  font-size: 1.25em;
+  color: #d35400;
+}
+
+.tag-size-3:visited {
+  color: #f1c40f;
+}
+
+.tag-size-4 {
+  font-size: 1.5em;
+  color: #d35400;
+}
+
+.tag-size-4:visited {
+  color: #f1c40f;
+}
+
+.tag-size-5 {
+  font-size: 2em;
+  color: #d35400;
+}
+
+.tag-size-5:visited {
+  color: #f1c40f;
 }
 /*# sourceMappingURL=style.css.map */
